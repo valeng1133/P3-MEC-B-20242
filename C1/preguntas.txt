@@ -1,0 +1,50 @@
+## ¿Cuál de los siguientes no es un pilar de la POO?
+{
+~ Abstracción
+~ Herencia
+~ Encapsulamiento
+= Compilación.
+}
+## ¿La herencia en Java es el uso de múltiples clases en un solo programa?{F}
+## ¿Que es el polimorfismo?
+{
+= La capcidad de un objeto para adoptar muchas formas.
+~ El uso de interfaces para implementar herencia múltiple
+~ La capacidad de crear múltiples constructores en una sola clase
+
+## ¿Cual de los siguientes modificadores hace que un método o variable sea accesible desde cualquier lugar?
+{
+~ "Private"
+~ "Protected"
+= "Public".
+~ "Default"
+}
+## Una calse abstracta no puede ser instanciada directamente {T}
+## Las interfaces pueden tener variables de instancia no estáticas {F}
+## Completa el siguiente código para que implemente una interfaz
+	interface Movible{
+		void mover ();
+	}
+	class Auto implements _______ {
+		public void ______ (){
+			System.out.println("El auto se mueve . ");
+	}
+
+## Un método abstracto puede acceder a variables de instancia {F}
+## Una clase puede heredar de múltiples clases {F}
+## ¿Que ocurre si un método de una clase es declarado como "private"?
+{
+~ Puede ser llamado desde cualquier lugar 
+= No se puede sobrescribir en las subclases.
+~ Solo puede ser llamados desde subclases
+}
+10. Completa el código para implementar corretamente la encapsulación:
+class Persona {
+	private Strig nombre;
+	public String getNombre (){
+		return nombre;
+	}
+	public void ______ (String nombre {
+		this.nombre = nombre ;
+	}
+}
